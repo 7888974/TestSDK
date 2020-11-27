@@ -443,7 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WN7L5KUY92;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
-				GCC_PREFIX_HEADER = /Users/shirojoy/Desktop/ShiroSDK/news/TestSDK/ShiroSDKNew/ShiroSDKNew/Classes/Common/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/shirojoy/Desktop/ShiroSDK/Test/TestSDK/ShiroSDKNew/Classes/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = ShiroSDKNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WN7L5KUY92;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
-				GCC_PREFIX_HEADER = /Users/shirojoy/Desktop/ShiroSDK/news/TestSDK/ShiroSDKNew/ShiroSDKNew/Classes/Common/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/shirojoy/Desktop/ShiroSDK/Test/TestSDK/ShiroSDKNew/Classes/Common/PrefixHeader.pch;
 				INFOPLIST_FILE = ShiroSDKNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
