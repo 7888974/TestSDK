@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F67601F866488C29C6C07B /* Pods_ShiroSDKNew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B82A33C3D1820BFE23B020 /* Pods_ShiroSDKNew.framework */; };
+		EB765BFC256E515C006FB27B /* BaseLoginMainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB765BFB256E515C006FB27B /* BaseLoginMainViewController.storyboard */; };
+		EBD7FBE5256DEDD2004CD1B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FBE4256DEDD2004CD1B2 /* AppDelegate.m */; };
+		EBD7FBEB256DEDD2004CD1B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FBEA256DEDD2004CD1B2 /* ViewController.m */; };
+		EBD7FBF0256DEDD7004CD1B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD7FBEF256DEDD7004CD1B2 /* Assets.xcassets */; };
+		EBD7FBF3256DEDD7004CD1B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD7FBF1256DEDD7004CD1B2 /* LaunchScreen.storyboard */; };
+		EBD7FBF6256DEDD7004CD1B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FBF5256DEDD7004CD1B2 /* main.m */; };
+		EBD7FC04256DF337004CD1B2 /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FC03256DF337004CD1B2 /* NetworkTools.m */; };
+		EBD7FC07256E2930004CD1B2 /* BaseLoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FC06256E2930004CD1B2 /* BaseLoginMainViewController.m */; };
+		EBD7FC0D256E2CF7004CD1B2 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FC0C256E2CF7004CD1B2 /* ForgetViewController.m */; };
+		EBD7FC10256E2D0A004CD1B2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FC0F256E2D0A004CD1B2 /* RegisterViewController.m */; };
+		EBD7FC13256E2D20004CD1B2 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD7FC12256E2D20004CD1B2 /* LoginView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5297F1400696462920C5FC62 /* Pods-ShiroSDKNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiroSDKNew.release.xcconfig"; path = "Target Support Files/Pods-ShiroSDKNew/Pods-ShiroSDKNew.release.xcconfig"; sourceTree = "<group>"; };
+		55B82A33C3D1820BFE23B020 /* Pods_ShiroSDKNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShiroSDKNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB765BFB256E515C006FB27B /* BaseLoginMainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseLoginMainViewController.storyboard; sourceTree = "<group>"; };
+		EBD7FBE0256DEDD2004CD1B2 /* ShiroSDKNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiroSDKNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD7FBE3256DEDD2004CD1B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBD7FBE4256DEDD2004CD1B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBD7FBE9256DEDD2004CD1B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBD7FBEA256DEDD2004CD1B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBD7FBEF256DEDD7004CD1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD7FBF2256DEDD7004CD1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD7FBF4256DEDD7004CD1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD7FBF5256DEDD7004CD1B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD7FC01256DF1BF004CD1B2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EBD7FC02256DF337004CD1B2 /* NetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		EBD7FC03256DF337004CD1B2 /* NetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
+		EBD7FC05256E2930004CD1B2 /* BaseLoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLoginMainViewController.h; sourceTree = "<group>"; };
+		EBD7FC06256E2930004CD1B2 /* BaseLoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLoginMainViewController.m; sourceTree = "<group>"; };
+		EBD7FC0B256E2CF7004CD1B2 /* ForgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		EBD7FC0C256E2CF7004CD1B2 /* ForgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		EBD7FC0E256E2D0A004CD1B2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		EBD7FC0F256E2D0A004CD1B2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		EBD7FC11256E2D20004CD1B2 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		EBD7FC12256E2D20004CD1B2 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		FC567ED25C5DB158AA24302A /* Pods-ShiroSDKNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShiroSDKNew.debug.xcconfig"; path = "Target Support Files/Pods-ShiroSDKNew/Pods-ShiroSDKNew.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD7FBDD256DEDD2004CD1B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F67601F866488C29C6C07B /* Pods_ShiroSDKNew.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14876A621F66C6C0F5E36796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC567ED25C5DB158AA24302A /* Pods-ShiroSDKNew.debug.xcconfig */,
+				5297F1400696462920C5FC62 /* Pods-ShiroSDKNew.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBD7FBD7256DEDD2004CD1B2 = {
+			isa = PBXGroup;
+			children = (
+				EBD7FBE2256DEDD2004CD1B2 /* ShiroSDKNew */,
+				EBD7FBE1256DEDD2004CD1B2 /* Products */,
+				14876A621F66C6C0F5E36796 /* Pods */,
+				EF2568C2145ABF43D338DEFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD7FBE1256DEDD2004CD1B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FBE0256DEDD2004CD1B2 /* ShiroSDKNew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD7FBE2256DEDD2004CD1B2 /* ShiroSDKNew */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FBFC256DF16F004CD1B2 /* Classes */,
+				EBD7FBE3256DEDD2004CD1B2 /* AppDelegate.h */,
+				EBD7FBE4256DEDD2004CD1B2 /* AppDelegate.m */,
+				EBD7FBE9256DEDD2004CD1B2 /* ViewController.h */,
+				EBD7FBEA256DEDD2004CD1B2 /* ViewController.m */,
+				EBD7FBEF256DEDD7004CD1B2 /* Assets.xcassets */,
+				EBD7FBF1256DEDD7004CD1B2 /* LaunchScreen.storyboard */,
+				EBD7FBF4256DEDD7004CD1B2 /* Info.plist */,
+				EBD7FBF5256DEDD7004CD1B2 /* main.m */,
+			);
+			path = ShiroSDKNew;
+			sourceTree = "<group>";
+		};
+		EBD7FBFC256DF16F004CD1B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC00256DF1AA004CD1B2 /* Common */,
+				EBD7FBFF256DF16F004CD1B2 /* View */,
+				EBD7FBFE256DF16F004CD1B2 /* Model */,
+				EBD7FBFD256DF16F004CD1B2 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EBD7FBFD256DF16F004CD1B2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC02256DF337004CD1B2 /* NetworkTools.h */,
+				EBD7FC03256DF337004CD1B2 /* NetworkTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EBD7FBFE256DF16F004CD1B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBD7FBFF256DF16F004CD1B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC08256E2C3E004CD1B2 /* login */,
+				EBD7FC0A256E2C74004CD1B2 /* forget */,
+				EBD7FC09256E2C52004CD1B2 /* register */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBD7FC00256DF1AA004CD1B2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC01256DF1BF004CD1B2 /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EBD7FC08256E2C3E004CD1B2 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC05256E2930004CD1B2 /* BaseLoginMainViewController.h */,
+				EBD7FC06256E2930004CD1B2 /* BaseLoginMainViewController.m */,
+				EB765BFB256E515C006FB27B /* BaseLoginMainViewController.storyboard */,
+				EBD7FC11256E2D20004CD1B2 /* LoginView.h */,
+				EBD7FC12256E2D20004CD1B2 /* LoginView.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		EBD7FC09256E2C52004CD1B2 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC0E256E2D0A004CD1B2 /* RegisterViewController.h */,
+				EBD7FC0F256E2D0A004CD1B2 /* RegisterViewController.m */,
+			);
+			path = register;
+			sourceTree = "<group>";
+		};
+		EBD7FC0A256E2C74004CD1B2 /* forget */ = {
+			isa = PBXGroup;
+			children = (
+				EBD7FC0B256E2CF7004CD1B2 /* ForgetViewController.h */,
+				EBD7FC0C256E2CF7004CD1B2 /* ForgetViewController.m */,
+			);
+			path = forget;
+			sourceTree = "<group>";
+		};
+		EF2568C2145ABF43D338DEFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B82A33C3D1820BFE23B020 /* Pods_ShiroSDKNew.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD7FBDF256DEDD2004CD1B2 /* ShiroSDKNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD7FBF9256DEDD7004CD1B2 /* Build configuration list for PBXNativeTarget "ShiroSDKNew" */;
+			buildPhases = (
+				345DE9176F24B81D1DC62B10 /* [CP] Check Pods Manifest.lock */,
+				EBD7FBDC256DEDD2004CD1B2 /* Sources */,
+				EBD7FBDD256DEDD2004CD1B2 /* Frameworks */,
+				EBD7FBDE256DEDD2004CD1B2 /* Resources */,
+				CBB5F57C9C554FF84E7B1D8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiroSDKNew;
+			productName = ShiroSDKNew;
+			productReference = EBD7FBE0256DEDD2004CD1B2 /* ShiroSDKNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD7FBD8256DEDD2004CD1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yhw;
+				TargetAttributes = {
+					EBD7FBDF256DEDD2004CD1B2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EBD7FBDB256DEDD2004CD1B2 /* Build configuration list for PBXProject "ShiroSDKNew" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD7FBD7256DEDD2004CD1B2;
+			productRefGroup = EBD7FBE1256DEDD2004CD1B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD7FBDF256DEDD2004CD1B2 /* ShiroSDKNew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD7FBDE256DEDD2004CD1B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7FBF3256DEDD7004CD1B2 /* LaunchScreen.storyboard in Resources */,
+				EB765BFC256E515C006FB27B /* BaseLoginMainViewController.storyboard in Resources */,
+				EBD7FBF0256DEDD7004CD1B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		345DE9176F24B81D1DC62B10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShiroSDKNew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB5F57C9C554FF84E7B1D8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShiroSDKNew/Pods-ShiroSDKNew-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShiroSDKNew/Pods-ShiroSDKNew-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShiroSDKNew/Pods-ShiroSDKNew-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD7FBDC256DEDD2004CD1B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD7FC04256DF337004CD1B2 /* NetworkTools.m in Sources */,
+				EBD7FC0D256E2CF7004CD1B2 /* ForgetViewController.m in Sources */,
+				EBD7FC13256E2D20004CD1B2 /* LoginView.m in Sources */,
+				EBD7FC07256E2930004CD1B2 /* BaseLoginMainViewController.m in Sources */,
+				EBD7FBEB256DEDD2004CD1B2 /* ViewController.m in Sources */,
+				EBD7FC10256E2D0A004CD1B2 /* RegisterViewController.m in Sources */,
+				EBD7FBE5256DEDD2004CD1B2 /* AppDelegate.m in Sources */,
+				EBD7FBF6256DEDD7004CD1B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBD7FBF1256DEDD7004CD1B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD7FBF2256DEDD7004CD1B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD7FBF7256DEDD7004CD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBD7FBF8256DEDD7004CD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD7FBFA256DEDD7004CD1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC567ED25C5DB158AA24302A /* Pods-ShiroSDKNew.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WN7L5KUY92;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/shirojoy/Desktop/ShiroSDK/news/TestSDK/ShiroSDKNew/ShiroSDKNew/Classes/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = ShiroSDKNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhw.ShiroSDKNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		EBD7FBFB256DEDD7004CD1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5297F1400696462920C5FC62 /* Pods-ShiroSDKNew.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WN7L5KUY92;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/shirojoy/Desktop/ShiroSDK/news/TestSDK/ShiroSDKNew/ShiroSDKNew/Classes/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = ShiroSDKNew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhw.ShiroSDKNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD7FBDB256DEDD2004CD1B2 /* Build configuration list for PBXProject "ShiroSDKNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7FBF7256DEDD7004CD1B2 /* Debug */,
+				EBD7FBF8256DEDD7004CD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD7FBF9256DEDD7004CD1B2 /* Build configuration list for PBXNativeTarget "ShiroSDKNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD7FBFA256DEDD7004CD1B2 /* Debug */,
+				EBD7FBFB256DEDD7004CD1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD7FBD8256DEDD2004CD1B2 /* Project object */;
+}
