@@ -23,7 +23,7 @@
     
     
     
-    self.view.backgroundColor = UIColor.orangeColor;
+    self.view.backgroundColor = UIColor.whiteColor;
     
     UIButton *btn = [[UIButton alloc] init];
     btn.backgroundColor = UIColor.grayColor;

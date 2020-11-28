@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseLoginMainViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ForgetViewController : UIViewController
+@interface ForgetViewController : BaseLoginMainViewController
 
 @end
 
